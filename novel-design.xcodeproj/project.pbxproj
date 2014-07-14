@@ -12,7 +12,6 @@
 		493508DB1970B640008C1C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508DA1970B640008C1C22 /* UIKit.framework */; };
 		493508E11970B640008C1C22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 493508DF1970B640008C1C22 /* InfoPlist.strings */; };
 		493508E31970B640008C1C22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 493508E21970B640008C1C22 /* main.m */; };
-		493508EA1970B640008C1C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493508E81970B640008C1C22 /* Main.storyboard */; };
 		493508EF1970B640008C1C22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493508EE1970B640008C1C22 /* Images.xcassets */; };
 		493508F61970B640008C1C22 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508F51970B640008C1C22 /* XCTest.framework */; };
 		493508F71970B640008C1C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508D61970B640008C1C22 /* Foundation.framework */; };
@@ -34,6 +33,10 @@
 		493509381970B6B2008C1C22 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935092C1970B6B2008C1C22 /* SSZipArchive.m */; };
 		493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4935092F1970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt */; };
 		4935093A1970B6B2008C1C22 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 493509301970B6B2008C1C22 /* WebViewJavascriptBridge.m */; };
+		49895A8719739459000A8895 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8619739459000A8895 /* MessageUI.framework */; };
+		49895A8919739460000A8895 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8819739460000A8895 /* QuartzCore.framework */; };
+		49895A8B19739468000A8895 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8A19739468000A8895 /* Twitter.framework */; };
+		49895A8C197396F6000A8895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493508E81970B640008C1C22 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +94,9 @@
 		4935092E1970B6B2008C1C22 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		4935092F1970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
 		493509301970B6B2008C1C22 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		49895A8619739459000A8895 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		49895A8819739460000A8895 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49895A8A19739468000A8895 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49895A8B19739468000A8895 /* Twitter.framework in Frameworks */,
+				49895A8919739460000A8895 /* QuartzCore.framework in Frameworks */,
+				49895A8719739459000A8895 /* MessageUI.framework in Frameworks */,
 				4935090C1970B650008C1C22 /* libz.dylib in Frameworks */,
 				493508D91970B640008C1C22 /* CoreGraphics.framework in Frameworks */,
 				493508DB1970B640008C1C22 /* UIKit.framework in Frameworks */,
@@ -140,6 +149,9 @@
 		493508D51970B640008C1C22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49895A8A19739468000A8895 /* Twitter.framework */,
+				49895A8819739460000A8895 /* QuartzCore.framework */,
+				49895A8619739459000A8895 /* MessageUI.framework */,
 				4935090B1970B650008C1C22 /* libz.dylib */,
 				493508D61970B640008C1C22 /* Foundation.framework */,
 				493508D81970B640008C1C22 /* CoreGraphics.framework */,
@@ -171,6 +183,7 @@
 		493508DD1970B640008C1C22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49895A8D1973D56F000A8895 /* img */,
 				493508DE1970B640008C1C22 /* novel-design-Info.plist */,
 				493508DF1970B640008C1C22 /* InfoPlist.strings */,
 				493508E21970B640008C1C22 /* main.m */,
@@ -246,6 +259,13 @@
 				493509301970B6B2008C1C22 /* WebViewJavascriptBridge.m */,
 			);
 			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		49895A8D1973D56F000A8895 /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,10 +344,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49895A8C197396F6000A8895 /* Main.storyboard in Resources */,
 				493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */,
 				493508EF1970B640008C1C22 /* Images.xcassets in Resources */,
 				493508E11970B640008C1C22 /* InfoPlist.strings in Resources */,
-				493508EA1970B640008C1C22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +584,7 @@
 				493509071970B640008C1C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493509081970B640008C1C22 /* Build configuration list for PBXNativeTarget "novel-designTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +593,7 @@
 				4935090A1970B640008C1C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

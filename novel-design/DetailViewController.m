@@ -38,7 +38,7 @@
     
     NSString *rootPath = [self.seaport packagePath:@"all"];
     if(rootPath){
-        NSString *filePath = [rootPath stringByAppendingPathComponent:@"detail"];
+        NSString *filePath = [rootPath stringByAppendingPathComponent:@"detail.html"];
         NSURL *localURL=[NSURL fileURLWithPath:filePath];
         
         NSURL *debugURL=[NSURL URLWithString:@"http://localhost:8080/detail.html"];

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ieG-Om-CAe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ieG-Om-CAe">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -8,25 +8,23 @@
         <scene sceneID="hXI-B7-FSJ">
             <objects>
                 <viewController id="MjH-GP-U7t" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="eqU-ho-duP"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="contacts" id="eqU-ho-duP">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5xF-K5-gHI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1872" y="705"/>
         </scene>
-        <!--View Controller - Novo Design-->
+        <!--View Controller - Novel Design-->
         <scene sceneID="zLH-p8-M4p">
             <objects>
                 <viewController id="K34-UN-qse" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3bo-Av-Y7G"/>
-                        <viewControllerLayoutGuide type="bottom" id="N7t-ag-drX"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3A9-D3-reB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RKg-UL-xpg">
+                            <webView contentMode="scaleToFill" id="RKg-UL-xpg">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -37,7 +35,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Novo Design" id="Nqj-9l-Ij0">
+                    <navigationItem key="navigationItem" title="Novel Design" id="Nqj-9l-Ij0">
                         <barButtonItem key="leftBarButtonItem" systemItem="compose" id="jD9-OE-cbV">
                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
@@ -67,15 +65,11 @@
         <scene sceneID="H9U-CP-3FS">
             <objects>
                 <viewController id="njr-f9-tCn" customClass="DetailViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hsI-iA-XP3"/>
-                        <viewControllerLayoutGuide type="bottom" id="QFA-4I-iuN"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QK2-ui-i4G">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppb-Un-rzr">
+                            <webView contentMode="scaleToFill" id="ppb-Un-rzr">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -106,10 +100,6 @@
         <scene sceneID="BTp-Ns-CZS">
             <objects>
                 <viewController id="isu-Ho-0fF" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UJu-bY-GCI"/>
-                        <viewControllerLayoutGuide type="bottom" id="NuX-Tb-8B1"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jFF-7p-M5d">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
