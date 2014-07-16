@@ -20,7 +20,7 @@
     self.loaded=NO;
     self.bridge = [SeaportWebViewBridge bridgeForWebView:self.webView param:self.param dataHandler:^(id data) {
         NSLog(@"receive data: %@",data);
-        [self performSegueWithIdentifier:@"category" sender:data];
+        [self performSegueWithIdentifier:@"detail" sender:data];
     }];
     self.webView.scrollView.showsVerticalScrollIndicator = NO;
     [super viewDidLoad];

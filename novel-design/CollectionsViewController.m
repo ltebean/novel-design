@@ -6,24 +6,23 @@
 //  Copyright (c) 2014年 ltebean. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "CollectionsViewController.h"
 
-@interface DetailViewController  () <UIWebViewDelegate,UISearchBarDelegate>
+@interface CollectionsViewController  () <UIWebViewDelegate,UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property BOOL loaded;
 @end
 
-@implementation DetailViewController
+@implementation CollectionsViewController
 
 - (void)viewDidLoad
 {
     self.loaded=NO;
     self.bridge = [SeaportWebViewBridge bridgeForWebView:self.webView param:self.param dataHandler:^(id data) {
         NSLog(@"receive data: %@",data);
-        [self performSegueWithIdentifier:data[@"segue"] sender:data[@"data"]];
+        [self performSegueWithIdentifier:@"detail" sender:data];
     }];
     self.webView.scrollView.showsVerticalScrollIndicator = NO;
-    self.webView.keyboardDisplayRequiresUserAction = NO;
     [super viewDidLoad];
 }
 
@@ -36,8 +35,8 @@
     }
 }
 - (IBAction)refresh:(id)sender {
-   
-    [self loadPage:@"detail" inWebView:self.webView];
+    
+    [self loadPage:@"collections" inWebView:self.webView];
 }
 
 

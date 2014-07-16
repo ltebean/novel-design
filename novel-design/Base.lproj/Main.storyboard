@@ -54,7 +54,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="webView" destination="RKg-UL-xpg" id="hef-48-URM"/>
-                        <segue destination="njr-f9-tCn" kind="push" identifier="category" id="Yik-IK-kLZ"/>
+                        <segue destination="njr-f9-tCn" kind="push" identifier="detail" id="Yik-IK-kLZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LE1-sy-3w9" sceneMemberID="firstResponder"/>
@@ -94,22 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mgf-M7-iu6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2861" y="-180"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="BTp-Ns-CZS">
-            <objects>
-                <viewController id="isu-Ho-0fF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jFF-7p-M5d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="pRr-3S-IzU"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lLE-I8-53m" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1855" y="-713"/>
+            <point key="canvasLocation" x="3114" y="-150"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ycD-DO-cFv">
@@ -143,13 +128,77 @@
                     </tabBar>
                     <connections>
                         <segue destination="c87-Ic-Zx5" kind="relationship" relationship="viewControllers" id="oz7-f2-cjA"/>
+                        <segue destination="iMc-Ol-RBO" kind="relationship" relationship="viewControllers" id="IcG-XJ-lFx"/>
                         <segue destination="MjH-GP-U7t" kind="relationship" relationship="viewControllers" id="AG1-EZ-sOb"/>
-                        <segue destination="isu-Ho-0fF" kind="relationship" relationship="viewControllers" id="Egp-Nb-fon"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UxC-TV-kxw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1346" y="-13"/>
+        </scene>
+        <!--Collections View Controller - Novel Design-->
+        <scene sceneID="8Ym-Ff-c8O">
+            <objects>
+                <viewController id="cnV-HF-rfM" customClass="CollectionsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TDx-Dz-B7j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="4UD-dL-NPC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Novel Design" id="bzb-Fg-XAf">
+                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="f3e-DR-T2O">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="check:" destination="cnV-HF-rfM" id="Kkg-Sd-Hd8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="refresh" id="1GO-cJ-rBB">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="refresh:" destination="cnV-HF-rfM" id="ecu-gg-TWn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="webView" destination="4UD-dL-NPC" id="y8D-7q-CO3"/>
+                        <segue destination="njr-f9-tCn" kind="push" identifier="detail" id="obd-VE-7cG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zme-ga-2F1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2524" y="-697"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mx0-gg-GEr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iMc-Ol-RBO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="P2S-D0-vrj"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="htj-an-77G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cnV-HF-rfM" kind="relationship" relationship="rootViewController" id="B6t-gY-dh9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yEs-la-vvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="-731"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -157,4 +206,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="obd-VE-7cG"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -37,6 +37,7 @@
 		49895A8919739460000A8895 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8819739460000A8895 /* QuartzCore.framework */; };
 		49895A8B19739468000A8895 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8A19739468000A8895 /* Twitter.framework */; };
 		49895A8C197396F6000A8895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493508E81970B640008C1C22 /* Main.storyboard */; };
+		FA506D511976592900F912DB /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA506D501976592900F912DB /* CollectionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,8 @@
 		49895A8619739459000A8895 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		49895A8819739460000A8895 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		49895A8A19739468000A8895 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FA506D4F1976592900F912DB /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
+		FA506D501976592900F912DB /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				493509151970B6A2008C1C22 /* AppDelegate.m */,
 				493509161970B6A2008C1C22 /* ViewController.h */,
 				493509171970B6A2008C1C22 /* ViewController.m */,
+				FA506D4F1976592900F912DB /* CollectionsViewController.h */,
+				FA506D501976592900F912DB /* CollectionsViewController.m */,
 				4935090D1970B659008C1C22 /* lib */,
 				493508E81970B640008C1C22 /* Main.storyboard */,
 				493508EE1970B640008C1C22 /* Images.xcassets */,
@@ -372,6 +377,7 @@
 				493509181970B6A2008C1C22 /* AppDelegate.m in Sources */,
 				493509131970B679008C1C22 /* DetailViewController.m in Sources */,
 				4935093A1970B6B2008C1C22 /* WebViewJavascriptBridge.m in Sources */,
+				FA506D511976592900F912DB /* CollectionsViewController.m in Sources */,
 				493509311970B6B2008C1C22 /* Seaport.m in Sources */,
 				493509351970B6B2008C1C22 /* mztools.c in Sources */,
 				493509121970B679008C1C22 /* BaseViewController.m in Sources */,
