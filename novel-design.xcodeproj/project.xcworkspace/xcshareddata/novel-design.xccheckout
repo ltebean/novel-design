@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ABEEB1CC-A244-4F94-8AB6-1C033BDBB306</string>
+	<key>IDESourceControlProjectName</key>
+	<string>novel-design</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49ED6AB2-8543-485F-A32D-93DC6727E351</key>
+		<string>https://github.com/novel-design/novel-design.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>novel-design.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49ED6AB2-8543-485F-A32D-93DC6727E351</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/novel-design/novel-design.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49ED6AB2-8543-485F-A32D-93DC6727E351</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49ED6AB2-8543-485F-A32D-93DC6727E351</string>
+			<key>IDESourceControlWCCName</key>
+			<string>novel-design</string>
+		</dict>
+	</array>
+</dict>
+</plist>

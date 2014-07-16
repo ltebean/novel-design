@@ -47,7 +47,7 @@
         
         [self.bridge registerHandler:@"http:get" handler:^(id data, WVJBResponseCallback responseCallback){
             SeaportHttp* http = [[SeaportHttp alloc]initWithDomain:data[@"domain"]];
-            [http sendRequestToPath:data[@"path"] method:@"GET" params:nil cookies:data[@"cookies"] completionHandler:^(id result) {
+            [http sendRequestToPath:data[@"path"] method:@"GET" params:data[@"params"] cookies:data[@"cookies"] completionHandler:^(id result) {
                 responseCallback(result);
             }];
         }];

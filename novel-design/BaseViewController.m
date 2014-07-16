@@ -30,6 +30,27 @@
     self.seaport.deletage=self;
 }
 
+-(void) loadPage:(NSString*) page inWebView :(UIWebView*) webView
+{
+    NSString *rootPath = [self.seaport packagePath:@"all"];
+    NSString *fileName=[page stringByAppendingString:@".html"];
+    if(rootPath){
+        NSString *filePath = [rootPath stringByAppendingPathComponent:fileName];
+        NSURL *localURL=[NSURL fileURLWithPath:filePath];
+        
+        NSURL *debugURL=[NSURL URLWithString:[@"http://localhost:8080/" stringByAppendingString:fileName]];
+        
+        NSURLRequest *request=[NSURLRequest requestWithURL:debugURL];
+        [webView loadRequest:request];
+    }
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    BaseViewController* vc= segue.destinationViewController;
+    vc.param=sender;
+}
+
 
 -(void)seaport:(Seaport*)seaport didStartDownloadPackage:(NSString*) packageName version:(NSString*) version
 {
