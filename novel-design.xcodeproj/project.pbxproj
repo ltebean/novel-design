@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225250A61978124700C054D7 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225250A51978124700C054D7 /* SettingViewController.m */; };
 		493508D71970B640008C1C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508D61970B640008C1C22 /* Foundation.framework */; };
 		493508D91970B640008C1C22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508D81970B640008C1C22 /* CoreGraphics.framework */; };
 		493508DB1970B640008C1C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508DA1970B640008C1C22 /* UIKit.framework */; };
@@ -55,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225250A41978124700C054D7 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		225250A51978124700C054D7 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		493508D31970B640008C1C22 /* 品趣.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "品趣.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		493508D61970B640008C1C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		493508D81970B640008C1C22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -187,6 +190,8 @@
 				FA506D501976592900F912DB /* CollectionsViewController.m */,
 				4935090D1970B659008C1C22 /* lib */,
 				493508E81970B640008C1C22 /* Main.storyboard */,
+				225250A41978124700C054D7 /* SettingViewController.h */,
+				225250A51978124700C054D7 /* SettingViewController.m */,
 				493508EE1970B640008C1C22 /* Images.xcassets */,
 				493508DD1970B640008C1C22 /* Supporting Files */,
 			);
@@ -406,6 +411,7 @@
 				493509371970B6B2008C1C22 /* zip.c in Sources */,
 				493508E31970B640008C1C22 /* main.m in Sources */,
 				493509191970B6A2008C1C22 /* ViewController.m in Sources */,
+				225250A61978124700C054D7 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
