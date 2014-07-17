@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#define color [UIColor colorWithRed:85/255.0f green:85/255.0f blue:85/255.0f alpha:1.0f ]
+#define color [UIColor colorWithRed:36/255.0f green:36/255.0f blue:36/255.0f alpha:1.0f ]
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -20,7 +20,7 @@
     
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIColor blackColor], NSForegroundColorAttributeName,
-                                                           [UIFont systemFontOfSize:18], NSFontAttributeName, nil]];
+                                                           [UIFont systemFontOfSize:19], NSFontAttributeName, nil]];
     
     
     

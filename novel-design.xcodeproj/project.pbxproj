@@ -35,6 +35,9 @@
 		4935093A1970B6B2008C1C22 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 493509301970B6B2008C1C22 /* WebViewJavascriptBridge.m */; };
 		49895A8719739459000A8895 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8619739459000A8895 /* MessageUI.framework */; };
 		49895A8C197396F6000A8895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493508E81970B640008C1C22 /* Main.storyboard */; };
+		49905D491977F81500C0ECA5 /* icon-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49905D481977F81500C0ECA5 /* icon-user@2x.png */; };
+		49905D4B1977FA4800C0ECA5 /* icon-furniture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49905D4A1977FA4800C0ECA5 /* icon-furniture@2x.png */; };
+		49905D4D1977FAF900C0ECA5 /* icon-home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49905D4C1977FAF900C0ECA5 /* icon-home@2x.png */; };
 		FA506D511976592900F912DB /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA506D501976592900F912DB /* CollectionsViewController.m */; };
 		FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC101977A4420033FD16 /* icon-list@2x.png */; };
 		FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */; };
@@ -99,6 +102,9 @@
 		49895A8619739459000A8895 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		49895A8819739460000A8895 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		49895A8A19739468000A8895 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		49905D481977F81500C0ECA5 /* icon-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-user@2x.png"; sourceTree = "<group>"; };
+		49905D4A1977FA4800C0ECA5 /* icon-furniture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-furniture@2x.png"; sourceTree = "<group>"; };
+		49905D4C1977FAF900C0ECA5 /* icon-home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home@2x.png"; sourceTree = "<group>"; };
 		FA506D4F1976592900F912DB /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
 		FA506D501976592900F912DB /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
 		FAC8FC101977A4420033FD16 /* icon-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-list@2x.png"; sourceTree = "<group>"; };
@@ -271,6 +277,9 @@
 		49895A8D1973D56F000A8895 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				49905D4C1977FAF900C0ECA5 /* icon-home@2x.png */,
+				49905D4A1977FA4800C0ECA5 /* icon-furniture@2x.png */,
+				49905D481977F81500C0ECA5 /* icon-user@2x.png */,
 				FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */,
 				FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */,
 				FAC8FC101977A4420033FD16 /* icon-list@2x.png */,
@@ -356,6 +365,9 @@
 			files = (
 				FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */,
 				49895A8C197396F6000A8895 /* Main.storyboard in Resources */,
+				49905D4B1977FA4800C0ECA5 /* icon-furniture@2x.png in Resources */,
+				49905D491977F81500C0ECA5 /* icon-user@2x.png in Resources */,
+				49905D4D1977FAF900C0ECA5 /* icon-home@2x.png in Resources */,
 				FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */,
 				493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */,
 				493508EF1970B640008C1C22 /* Images.xcassets in Resources */,
