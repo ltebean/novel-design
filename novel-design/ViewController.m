@@ -43,7 +43,7 @@
 
 - (IBAction)check:(id)sender {
     [self.seaport checkUpdate];
-    [self.bridge sendData:@"btn-check clicked"];
+    [self.bridge sendData:@{@"action":@"category"}];
     
 }
 

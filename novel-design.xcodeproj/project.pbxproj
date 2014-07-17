@@ -34,10 +34,11 @@
 		493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4935092F1970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt */; };
 		4935093A1970B6B2008C1C22 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 493509301970B6B2008C1C22 /* WebViewJavascriptBridge.m */; };
 		49895A8719739459000A8895 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8619739459000A8895 /* MessageUI.framework */; };
-		49895A8919739460000A8895 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8819739460000A8895 /* QuartzCore.framework */; };
-		49895A8B19739468000A8895 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49895A8A19739468000A8895 /* Twitter.framework */; };
 		49895A8C197396F6000A8895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493508E81970B640008C1C22 /* Main.storyboard */; };
 		FA506D511976592900F912DB /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA506D501976592900F912DB /* CollectionsViewController.m */; };
+		FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC101977A4420033FD16 /* icon-list@2x.png */; };
+		FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */; };
+		FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		493508D31970B640008C1C22 /* novel-design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "novel-design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		493508D31970B640008C1C22 /* 品趣.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "品趣.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		493508D61970B640008C1C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		493508D81970B640008C1C22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		493508DA1970B640008C1C22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -100,6 +101,9 @@
 		49895A8A19739468000A8895 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		FA506D4F1976592900F912DB /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
 		FA506D501976592900F912DB /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
+		FAC8FC101977A4420033FD16 /* icon-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-list@2x.png"; sourceTree = "<group>"; };
+		FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-heart@2x.png"; sourceTree = "<group>"; };
+		FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49895A8B19739468000A8895 /* Twitter.framework in Frameworks */,
-				49895A8919739460000A8895 /* QuartzCore.framework in Frameworks */,
 				49895A8719739459000A8895 /* MessageUI.framework in Frameworks */,
 				4935090C1970B650008C1C22 /* libz.dylib in Frameworks */,
 				493508D91970B640008C1C22 /* CoreGraphics.framework in Frameworks */,
@@ -143,7 +145,7 @@
 		493508D41970B640008C1C22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				493508D31970B640008C1C22 /* novel-design.app */,
+				493508D31970B640008C1C22 /* 品趣.app */,
 				493508F41970B640008C1C22 /* novel-designTests.xctest */,
 			);
 			name = Products;
@@ -269,6 +271,9 @@
 		49895A8D1973D56F000A8895 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */,
+				FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */,
+				FAC8FC101977A4420033FD16 /* icon-list@2x.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -290,7 +295,7 @@
 			);
 			name = "novel-design";
 			productName = "novel-design";
-			productReference = 493508D31970B640008C1C22 /* novel-design.app */;
+			productReference = 493508D31970B640008C1C22 /* 品趣.app */;
 			productType = "com.apple.product-type.application";
 		};
 		493508F31970B640008C1C22 /* novel-designTests */ = {
@@ -349,9 +354,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */,
 				49895A8C197396F6000A8895 /* Main.storyboard in Resources */,
+				FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */,
 				493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */,
 				493508EF1970B640008C1C22 /* Images.xcassets in Resources */,
+				FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */,
 				493508E11970B640008C1C22 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,7 +521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "品趣";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -526,7 +534,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "品趣";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

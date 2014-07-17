@@ -19,7 +19,7 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           color, NSForegroundColorAttributeName,
+                                                           [UIColor blackColor], NSForegroundColorAttributeName,
                                                            [UIFont systemFontOfSize:18], NSFontAttributeName, nil]];
     
     
