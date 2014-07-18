@@ -19,7 +19,6 @@
 {
     self.loaded=NO;
     self.bridge = [SeaportWebViewBridge bridgeForWebView:self.webView param:self.param dataHandler:^(id data) {
-        NSLog(@"receive data: %@",data);
         [self performSegueWithIdentifier:@"detail" sender:data];
     }];
     self.webView.scrollView.showsVerticalScrollIndicator = NO;
@@ -35,16 +34,8 @@
     }
 }
 - (IBAction)refresh:(id)sender {
-    
     [self loadPage:@"collections" inWebView:self.webView];
 }
 
-
-
-- (IBAction)check:(id)sender {
-    [self.seaport checkUpdate];
-    [self.bridge sendData:@"btn-check clicked"];
-    
-}
 
 @end

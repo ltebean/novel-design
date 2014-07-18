@@ -19,11 +19,11 @@
 {
     self.loaded=NO;
     self.bridge = [SeaportWebViewBridge bridgeForWebView:self.webView param:self.param dataHandler:^(id data) {
-        NSLog(@"receive data: %@",data);
         [self performSegueWithIdentifier:data[@"segue"] sender:data[@"data"]];
     }];
     self.webView.scrollView.showsVerticalScrollIndicator = NO;
     self.webView.keyboardDisplayRequiresUserAction = NO;
+
     [super viewDidLoad];
 }
 
@@ -40,12 +40,5 @@
     [self loadPage:@"detail" inWebView:self.webView];
 }
 
-
-
-- (IBAction)check:(id)sender {
-    [self.seaport checkUpdate];
-    [self.bridge sendData:@"btn-check clicked"];
-    
-}
 
 @end

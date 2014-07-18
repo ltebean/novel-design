@@ -66,7 +66,7 @@ static Seaport *sharedInstance;
     NSURL *documentsDirectoryURL = [fm URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
     NSString * packageDirectory = [documentsDirectoryURL URLByAppendingPathComponent:@"packages"].path;
     
-    NSLog(@"%@",packageDirectory);
+    //NSLog(@"%@",packageDirectory);
     
     BOOL exists=[fm fileExistsAtPath:packageDirectory];
     if (!exists) {
@@ -199,7 +199,7 @@ static Seaport *sharedInstance;
 
 -(BOOL) saveConfig:(NSDictionary*) config
 {
-    NSLog(@"update config to %@",config);
+    //NSLog(@"update config to %@",config);
     NSString *configFilePath =[self.packageDirectory stringByAppendingPathComponent:CONFIG_FILE];
     return [config writeToFile:configFilePath atomically:YES];
 }

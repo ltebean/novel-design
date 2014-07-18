@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		225250A61978124700C054D7 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225250A51978124700C054D7 /* SettingViewController.m */; };
+		49088A5819793EAA0079AA1F /* build in Resources */ = {isa = PBXBuildFile; fileRef = 49088A5719793EAA0079AA1F /* build */; };
 		493508D71970B640008C1C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508D61970B640008C1C22 /* Foundation.framework */; };
 		493508D91970B640008C1C22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508D81970B640008C1C22 /* CoreGraphics.framework */; };
 		493508DB1970B640008C1C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493508DA1970B640008C1C22 /* UIKit.framework */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		225250A41978124700C054D7 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		225250A51978124700C054D7 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		49088A5719793EAA0079AA1F /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
 		493508D31970B640008C1C22 /* 品趣.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "品趣.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		493508D61970B640008C1C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		493508D81970B640008C1C22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -201,6 +203,7 @@
 		493508DD1970B640008C1C22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49088A5719793EAA0079AA1F /* build */,
 				49895A8D1973D56F000A8895 /* img */,
 				493508DE1970B640008C1C22 /* novel-design-Info.plist */,
 				493508DF1970B640008C1C22 /* InfoPlist.strings */,
@@ -339,6 +342,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ltebean;
 				TargetAttributes = {
+					493508D21970B640008C1C22 = {
+						DevelopmentTeam = LUAG5Z5ST3;
+					};
 					493508F31970B640008C1C22 = {
 						TestTargetID = 493508D21970B640008C1C22;
 					};
@@ -368,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49088A5819793EAA0079AA1F /* build in Resources */,
 				FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */,
 				49895A8C197396F6000A8895 /* Main.storyboard in Resources */,
 				49905D4B1977FA4800C0ECA5 /* icon-furniture@2x.png in Resources */,
@@ -495,6 +502,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1593b7b8-cf8d-4a12-b9a6-0085bc5ba2b5";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -526,6 +534,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "1593b7b8-cf8d-4a12-b9a6-0085bc5ba2b5";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -536,10 +545,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "品趣";
+				PROVISIONING_PROFILE = "1593b7b8-cf8d-4a12-b9a6-0085bc5ba2b5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -549,10 +561,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "品趣";
+				PROVISIONING_PROFILE = "1593b7b8-cf8d-4a12-b9a6-0085bc5ba2b5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

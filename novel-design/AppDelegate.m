@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "Seaport.h"
+
 
 #define color [UIColor colorWithRed:36/255.0f green:36/255.0f blue:36/255.0f alpha:1.0f ]
+
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -18,12 +22,13 @@
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
+    
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           [UIColor blackColor], NSForegroundColorAttributeName,
-                                                           [UIFont systemFontOfSize:19], NSFontAttributeName, nil]];
+                                                           [UIColor blackColor], NSForegroundColorAttributeName,[UIFont fontWithName:@"Hiragino Mincho ProN" size:18], NSFontAttributeName, nil]];
     
     
-    
+    [[Seaport sharedInstance] checkUpdate];
+
     return YES;
 }
 

@@ -40,8 +40,11 @@
         
         NSURL *debugURL=[NSURL URLWithString:[@"http://localhost:8080/" stringByAppendingString:fileName]];
         
-        NSURLRequest *request=[NSURLRequest requestWithURL:debugURL];
+        NSURLRequest *request=[NSURLRequest requestWithURL:localURL];
         [webView loadRequest:request];
+    }else{
+        NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:page ofType:@"html" inDirectory:@"/build"]];
+        [webView loadRequest:[NSURLRequest requestWithURL:url]];
     }
 }
 
@@ -54,22 +57,22 @@
 
 -(void)seaport:(Seaport*)seaport didStartDownloadPackage:(NSString*) packageName version:(NSString*) version
 {
-    NSLog(@"start download package: %@@%@",packageName,version);
+    // NSLog(@"start download package: %@@%@",packageName,version);
 }
 
 -(void)seaport:(Seaport*)seaport didFinishDownloadPackage:(NSString*) packageName version:(NSString*) version
 {
-    NSLog(@"finish download package: %@@%@",packageName,version);
+   // NSLog(@"finish download package: %@@%@",packageName,version);
 }
 
 -(void)seaport:(Seaport*)seaport didFailDownloadPackage:(NSString*) packageName version:(NSString*) version withError:(NSError*) error
 {
-    NSLog(@"faild download package: %@@%@",packageName,version);
+    //NSLog(@"faild download package: %@@%@",packageName,version);
 }
 
 -(void)seaport:(Seaport*)seaport didFinishUpdatePackage:(NSString*) packageName version:(NSString*) version
 {
-    NSLog(@"update local package: %@@%@",packageName,version);
+//    NSLog(@"update local package: %@@%@",packageName,version);
 }
 
 

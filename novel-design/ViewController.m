@@ -19,8 +19,11 @@
 {
     self.loaded=NO;
     self.bridge = [SeaportWebViewBridge bridgeForWebView:self.webView param:self.param dataHandler:^(id data) {
-        NSLog(@"receive data: %@",data);
-        [self performSegueWithIdentifier:@"detail" sender:data];
+        if(data[@"segue"]){
+            [self performSegueWithIdentifier:@"detail" sender:data];
+        }else if(data[@"title"]){
+            self.title=data[@"title"];
+        }
     }];
     self.webView.scrollView.showsVerticalScrollIndicator = NO;
     [super viewDidLoad];
@@ -37,12 +40,13 @@
 - (IBAction)refresh:(id)sender {
     
     [self loadPage:@"index" inWebView:self.webView];
+    self.title=@"品趣";
 }
 
 
 
 - (IBAction)check:(id)sender {
-    [self.seaport checkUpdate];
+//    [self.seaport checkUpdate];
     [self.bridge sendData:@{@"action":@"category"}];
     
 }
