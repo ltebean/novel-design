@@ -1,0 +1,1 @@
+!function(){var e="novel-design-static@0.1.0/entries/collections.js",n="novel-design-static@0.1.0/entries/detail.js",i="novel-design-static@0.1.0/entries/index.js",s="novel-design-static@0.1.0/index.js",t=[e,n,i],a={},c=a;define(s,[],function(){},{entries:t,main:!0,map:c})}();

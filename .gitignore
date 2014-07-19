@@ -2,7 +2,6 @@
 *.swp
 *~.nib
 
-build/
 xcuserdata/
 *.pbxuser
 *.perspective

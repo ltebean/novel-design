@@ -1,0 +1,1 @@
+neuron.config({tree:{"novel-design-static":{"0.1.0":[{fastclick:{"^1.0.2":"1.0.2"},"seaport-bridge":{"^0.1.0":"0.1.0"},"spin.js":{"^2.0.1":"2.0.1"},zepto:{"^1.1.3":"1.1.3"}},{}]},_:{"novel-design-static":{"*":"0.1.0"}}}});
