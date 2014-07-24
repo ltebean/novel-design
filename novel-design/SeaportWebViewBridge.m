@@ -67,6 +67,10 @@
             responseCallback(self.param);
         }];
         
+        [self.bridge registerHandler:@"url:open" handler:^(id data, WVJBResponseCallback responseCallback){
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:data]];
+        }];
+        
     }
     return self;
 }
