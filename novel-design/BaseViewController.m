@@ -43,12 +43,8 @@
         NSURLRequest *request=[NSURLRequest requestWithURL:localURL];
         [webView loadRequest:request];
     }else{
-//        NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:page ofType:@"html" inDirectory:@"/build"]];
-//        [webView loadRequest:[NSURLRequest requestWithURL:url]];
-        NSURL *debugURL=[NSURL URLWithString:[@"http://localhost:8080/" stringByAppendingString:fileName]];
-        
-        NSURLRequest *request=[NSURLRequest requestWithURL:debugURL];
-        [webView loadRequest:request];
+        NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:page ofType:@"html" inDirectory:@"/build"]];
+        [webView loadRequest:[NSURLRequest requestWithURL:url]];
     }
 }
 

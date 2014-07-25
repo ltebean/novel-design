@@ -40,10 +40,10 @@
 		49905D4B1977FA4800C0ECA5 /* icon-furniture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49905D4A1977FA4800C0ECA5 /* icon-furniture@2x.png */; };
 		49905D4D1977FAF900C0ECA5 /* icon-home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49905D4C1977FAF900C0ECA5 /* icon-home@2x.png */; };
 		FA09543219811115000B77A8 /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = FA09543019811115000B77A8 /* MKiCloudSync.m */; };
+		FA4DEE931981FE2C003B508E /* build in Resources */ = {isa = PBXBuildFile; fileRef = FA4DEE921981FE2C003B508E /* build */; };
 		FA506D511976592900F912DB /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA506D501976592900F912DB /* CollectionsViewController.m */; };
 		FA649E0B1980CAAB00781476 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA649E081980CAAB00781476 /* libWeChatSDK.a */; };
 		FA649E0D1980D2F200781476 /* icon-share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA649E0C1980D2F200781476 /* icon-share@2x.png */; };
-		FA649E0F1980F39700781476 /* build in Resources */ = {isa = PBXBuildFile; fileRef = FA649E0E1980F39700781476 /* build */; };
 		FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC101977A4420033FD16 /* icon-list@2x.png */; };
 		FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */; };
 		FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */; };
@@ -115,13 +115,13 @@
 		FA09542F19811115000B77A8 /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKiCloudSync.h; sourceTree = "<group>"; };
 		FA09543019811115000B77A8 /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKiCloudSync.m; sourceTree = "<group>"; };
 		FA09543419811175000B77A8 /* 品趣.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "品趣.entitlements"; sourceTree = "<group>"; };
+		FA4DEE921981FE2C003B508E /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
 		FA506D4F1976592900F912DB /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
 		FA506D501976592900F912DB /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
 		FA649E081980CAAB00781476 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		FA649E091980CAAB00781476 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		FA649E0A1980CAAB00781476 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		FA649E0C1980D2F200781476 /* icon-share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share@2x.png"; sourceTree = "<group>"; };
-		FA649E0E1980F39700781476 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
 		FAC8FC101977A4420033FD16 /* icon-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-list@2x.png"; sourceTree = "<group>"; };
 		FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-heart@2x.png"; sourceTree = "<group>"; };
 		FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings@2x.png"; sourceTree = "<group>"; };
@@ -215,7 +215,7 @@
 		493508DD1970B640008C1C22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA649E0E1980F39700781476 /* build */,
+				FA4DEE921981FE2C003B508E /* build */,
 				FA649E071980CA9F00781476 /* weixin */,
 				49895A8D1973D56F000A8895 /* img */,
 				493508DE1970B640008C1C22 /* novel-design-Info.plist */,
@@ -422,7 +422,7 @@
 				493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */,
 				493508EF1970B640008C1C22 /* Images.xcassets in Resources */,
 				FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */,
-				FA649E0F1980F39700781476 /* build in Resources */,
+				FA4DEE931981FE2C003B508E /* build in Resources */,
 				493508E11970B640008C1C22 /* InfoPlist.strings in Resources */,
 				FA649E0D1980D2F200781476 /* icon-share@2x.png in Resources */,
 			);
