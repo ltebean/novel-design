@@ -40,10 +40,15 @@
 		49905D4B1977FA4800C0ECA5 /* icon-furniture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49905D4A1977FA4800C0ECA5 /* icon-furniture@2x.png */; };
 		49905D4D1977FAF900C0ECA5 /* icon-home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49905D4C1977FAF900C0ECA5 /* icon-home@2x.png */; };
 		FA09543219811115000B77A8 /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = FA09543019811115000B77A8 /* MKiCloudSync.m */; };
-		FA4DEE931981FE2C003B508E /* build in Resources */ = {isa = PBXBuildFile; fileRef = FA4DEE921981FE2C003B508E /* build */; };
+		FA41E50C198F322E0057796F /* SinaWeiboAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41E50B198F322E0057796F /* SinaWeiboAuthViewController.m */; };
+		FA41E511198F344C0057796F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA41E50E198F344C0057796F /* SVProgressHUD.bundle */; };
+		FA41E512198F344C0057796F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41E510198F344C0057796F /* SVProgressHUD.m */; };
 		FA506D511976592900F912DB /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA506D501976592900F912DB /* CollectionsViewController.m */; };
 		FA649E0B1980CAAB00781476 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA649E081980CAAB00781476 /* libWeChatSDK.a */; };
 		FA649E0D1980D2F200781476 /* icon-share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA649E0C1980D2F200781476 /* icon-share@2x.png */; };
+		FA784159199B34D500546EFC /* WeiboHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = FA784158199B34D500546EFC /* WeiboHTTP.m */; };
+		FA78415C199B3A9800546EFC /* NSURL+QueryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78415B199B3A9800546EFC /* NSURL+QueryParser.m */; };
+		FA78415E199B521000546EFC /* build in Resources */ = {isa = PBXBuildFile; fileRef = FA78415D199B521000546EFC /* build */; };
 		FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC101977A4420033FD16 /* icon-list@2x.png */; };
 		FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */; };
 		FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */; };
@@ -115,13 +120,22 @@
 		FA09542F19811115000B77A8 /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKiCloudSync.h; sourceTree = "<group>"; };
 		FA09543019811115000B77A8 /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKiCloudSync.m; sourceTree = "<group>"; };
 		FA09543419811175000B77A8 /* 品趣.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "品趣.entitlements"; sourceTree = "<group>"; };
-		FA4DEE921981FE2C003B508E /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		FA41E50A198F322E0057796F /* SinaWeiboAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthViewController.h; sourceTree = "<group>"; };
+		FA41E50B198F322E0057796F /* SinaWeiboAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthViewController.m; sourceTree = "<group>"; };
+		FA41E50E198F344C0057796F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FA41E50F198F344C0057796F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		FA41E510198F344C0057796F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		FA506D4F1976592900F912DB /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
 		FA506D501976592900F912DB /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
 		FA649E081980CAAB00781476 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		FA649E091980CAAB00781476 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		FA649E0A1980CAAB00781476 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		FA649E0C1980D2F200781476 /* icon-share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share@2x.png"; sourceTree = "<group>"; };
+		FA784157199B34D500546EFC /* WeiboHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboHTTP.h; sourceTree = "<group>"; };
+		FA784158199B34D500546EFC /* WeiboHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboHTTP.m; sourceTree = "<group>"; };
+		FA78415A199B3A9800546EFC /* NSURL+QueryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryParser.h"; sourceTree = "<group>"; };
+		FA78415B199B3A9800546EFC /* NSURL+QueryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryParser.m"; sourceTree = "<group>"; };
+		FA78415D199B521000546EFC /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
 		FAC8FC101977A4420033FD16 /* icon-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-list@2x.png"; sourceTree = "<group>"; };
 		FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-heart@2x.png"; sourceTree = "<group>"; };
 		FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings@2x.png"; sourceTree = "<group>"; };
@@ -191,6 +205,8 @@
 		493508DC1970B640008C1C22 /* novel-design */ = {
 			isa = PBXGroup;
 			children = (
+				4935090D1970B659008C1C22 /* lib */,
+				FA41E509198F32140057796F /* weibo */,
 				FA09543419811175000B77A8 /* 品趣.entitlements */,
 				4935090E1970B679008C1C22 /* BaseViewController.h */,
 				4935090F1970B679008C1C22 /* BaseViewController.m */,
@@ -202,10 +218,9 @@
 				493509171970B6A2008C1C22 /* ViewController.m */,
 				FA506D4F1976592900F912DB /* CollectionsViewController.h */,
 				FA506D501976592900F912DB /* CollectionsViewController.m */,
-				4935090D1970B659008C1C22 /* lib */,
-				493508E81970B640008C1C22 /* Main.storyboard */,
 				225250A41978124700C054D7 /* SettingViewController.h */,
 				225250A51978124700C054D7 /* SettingViewController.m */,
+				493508E81970B640008C1C22 /* Main.storyboard */,
 				493508EE1970B640008C1C22 /* Images.xcassets */,
 				493508DD1970B640008C1C22 /* Supporting Files */,
 			);
@@ -215,7 +230,7 @@
 		493508DD1970B640008C1C22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA4DEE921981FE2C003B508E /* build */,
+				FA78415D199B521000546EFC /* build */,
 				FA649E071980CA9F00781476 /* weixin */,
 				49895A8D1973D56F000A8895 /* img */,
 				493508DE1970B640008C1C22 /* novel-design-Info.plist */,
@@ -247,6 +262,7 @@
 		4935090D1970B659008C1C22 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				FA41E50D198F344C0057796F /* SVProgressHUD */,
 				4935091A1970B6B2008C1C22 /* Seaport.h */,
 				4935091B1970B6B2008C1C22 /* Seaport.m */,
 				4935091C1970B6B2008C1C22 /* SeaportHttp.h */,
@@ -317,6 +333,29 @@
 				FA09543019811115000B77A8 /* MKiCloudSync.m */,
 			);
 			path = MKiCloudSync;
+			sourceTree = "<group>";
+		};
+		FA41E509198F32140057796F /* weibo */ = {
+			isa = PBXGroup;
+			children = (
+				FA41E50A198F322E0057796F /* SinaWeiboAuthViewController.h */,
+				FA41E50B198F322E0057796F /* SinaWeiboAuthViewController.m */,
+				FA784157199B34D500546EFC /* WeiboHTTP.h */,
+				FA784158199B34D500546EFC /* WeiboHTTP.m */,
+				FA78415A199B3A9800546EFC /* NSURL+QueryParser.h */,
+				FA78415B199B3A9800546EFC /* NSURL+QueryParser.m */,
+			);
+			name = weibo;
+			sourceTree = "<group>";
+		};
+		FA41E50D198F344C0057796F /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FA41E50E198F344C0057796F /* SVProgressHUD.bundle */,
+				FA41E50F198F344C0057796F /* SVProgressHUD.h */,
+				FA41E510198F344C0057796F /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		FA649E071980CA9F00781476 /* weixin */ = {
@@ -413,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA78415E199B521000546EFC /* build in Resources */,
 				FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */,
 				49895A8C197396F6000A8895 /* Main.storyboard in Resources */,
 				49905D4B1977FA4800C0ECA5 /* icon-furniture@2x.png in Resources */,
@@ -421,8 +461,8 @@
 				FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */,
 				493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */,
 				493508EF1970B640008C1C22 /* Images.xcassets in Resources */,
+				FA41E511198F344C0057796F /* SVProgressHUD.bundle in Resources */,
 				FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */,
-				FA4DEE931981FE2C003B508E /* build in Resources */,
 				493508E11970B640008C1C22 /* InfoPlist.strings in Resources */,
 				FA649E0D1980D2F200781476 /* icon-share@2x.png in Resources */,
 			);
@@ -446,15 +486,19 @@
 				493509321970B6B2008C1C22 /* SeaportHttp.m in Sources */,
 				493509361970B6B2008C1C22 /* unzip.c in Sources */,
 				493509381970B6B2008C1C22 /* SSZipArchive.m in Sources */,
+				FA78415C199B3A9800546EFC /* NSURL+QueryParser.m in Sources */,
 				493509181970B6A2008C1C22 /* AppDelegate.m in Sources */,
 				493509131970B679008C1C22 /* DetailViewController.m in Sources */,
 				4935093A1970B6B2008C1C22 /* WebViewJavascriptBridge.m in Sources */,
 				FA506D511976592900F912DB /* CollectionsViewController.m in Sources */,
+				FA41E512198F344C0057796F /* SVProgressHUD.m in Sources */,
 				493509311970B6B2008C1C22 /* Seaport.m in Sources */,
 				493509351970B6B2008C1C22 /* mztools.c in Sources */,
 				FA09543219811115000B77A8 /* MKiCloudSync.m in Sources */,
 				493509121970B679008C1C22 /* BaseViewController.m in Sources */,
+				FA784159199B34D500546EFC /* WeiboHTTP.m in Sources */,
 				493509331970B6B2008C1C22 /* SeaportWebViewBridge.m in Sources */,
+				FA41E50C198F322E0057796F /* SinaWeiboAuthViewController.m in Sources */,
 				493509341970B6B2008C1C22 /* ioapi.c in Sources */,
 				493509371970B6B2008C1C22 /* zip.c in Sources */,
 				493508E31970B640008C1C22 /* main.m in Sources */,
@@ -589,8 +633,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "novel-design/品趣.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
@@ -600,7 +644,7 @@
 					"$(PROJECT_DIR)/novel-design",
 				);
 				PRODUCT_NAME = "品趣";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1DB8B78C-F5EE-40FE-A099-9437D8F00595";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -612,8 +656,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "novel-design/品趣.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
@@ -623,7 +667,7 @@
 					"$(PROJECT_DIR)/novel-design",
 				);
 				PRODUCT_NAME = "品趣";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1DB8B78C-F5EE-40FE-A099-9437D8F00595";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

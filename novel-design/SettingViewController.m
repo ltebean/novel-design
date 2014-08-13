@@ -10,8 +10,12 @@
 #import <MessageUI/MFMailComposeViewController.h>
 #import <MessageUI/MessageUI.h>
 
+#define userDefaults  [NSUserDefaults standardUserDefaults]
+
 @interface SettingViewController () <MFMailComposeViewControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *usernameLabel;
+@property (weak, nonatomic) IBOutlet UIButton *changeAccountButton;
 @end
 
 @implementation SettingViewController
@@ -28,18 +32,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)didReceiveMemoryWarning
+-(void) viewWillAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewWillAppear:animated];
+    NSDictionary* userInfo = [userDefaults objectForKey:@"userInfo"];
+    if(userInfo){
+        self.usernameLabel.text=userInfo[@"weiboName"];
+    }
 }
 
 #pragma mark - Table view data source
@@ -61,7 +62,7 @@
         picker.navigationBar.tintColor=[UIColor blackColor];
         picker.mailComposeDelegate = self;
         [picker setSubject:@"品趣意见反馈"];
-        [picker setToRecipients:[NSArray arrayWithObjects:@"supersheepxjy@gmail.com", nil]];
+        [picker setToRecipients:[NSArray arrayWithObjects:@"yucong1118@gmail.com", nil]];
         [self presentViewController:picker animated:YES completion:nil];
     }else{
         UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"您还没有设置邮件帐号" message:nil delegate:nil cancelButtonTitle:nil otherButtonTitles:@"确认", nil];

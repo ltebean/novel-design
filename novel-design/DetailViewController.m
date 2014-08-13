@@ -8,6 +8,8 @@
 
 #import "DetailViewController.h"
 #import "WXApi.h"
+#import "WeiboHTTP.h"
+#import "SVProgressHUD.h"
 
 @interface DetailViewController  () <UIWebViewDelegate,UISearchBarDelegate,UIActionSheetDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -36,13 +38,13 @@
         self.loaded=YES;
     }
 }
-- (IBAction)refresh:(id)sender {
+- (IBAction)share:(id)sender {
    
     UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:nil
                                                        delegate:self
                                               cancelButtonTitle:@"取消"
                                          destructiveButtonTitle:nil
-                                              otherButtonTitles:@"分享给微信好友",@"分享到微信朋友圈",nil];
+                                              otherButtonTitles:@"分享到微博",@"分享给微信好友",@"分享到微信朋友圈",nil];
     
     sheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
     [sheet showInView:[self.view window]];
@@ -51,10 +53,12 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
-    if(buttonIndex==0){
+    if(buttonIndex==1){
         [self shareToWeixinIsTimeLine:NO];
-    }else if(buttonIndex==1){
+    }else if(buttonIndex==2){
         [self shareToWeixinIsTimeLine:YES];
+    }else if(buttonIndex==0){
+        [self shareToWeibo];
     }
 }
 
@@ -62,6 +66,30 @@
 {
     UIAlertView* alert = [[UIAlertView alloc]initWithTitle:message message:nil delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
     [alert show];
+}
+
+-(void) shareToWeibo
+{
+    NSDictionary* userInfo = [[NSUserDefaults standardUserDefaults] objectForKey:@"userInfo"];
+    if(!userInfo){
+        [self alert:@"请在设置界面登陆微博"];
+        return;
+    }
+    NSDictionary* design=self.param[@"data"];
+    NSString* status=[NSString stringWithFormat:@"%@ 分享自#品趣#",design[@"title"]];
+    [WeiboHTTP sendRequestToPath:@"/2/statuses/upload_url_text.json"  method:@"POST" params:@{@"access_token":userInfo[@"weiboToken"],@"status":status,@"url":design[@"thumb"]} completionHandler:^(id data) {
+        if(!data){
+            [self alert:@"网络连接出错"];
+            return;
+            
+        }else if(data[@"error_code"]){
+            [self alert:@"授权过期，请重新授权"];
+            return;
+        }else{
+            [self alert:@"分享成功^_^"];
+        }
+    }];
+    
 }
 
 -(void)shareToWeixinIsTimeLine: (BOOL)isTimeLine

@@ -8,8 +8,7 @@
 
 #import "BaseViewController.h"
 
-@interface BaseViewController ()<UISearchBarDelegate,SeaportDelegate>
-@property(nonatomic,strong) UIToolbar* overlay;
+@interface BaseViewController ()<SeaportDelegate>
 @end
 
 @implementation BaseViewController
@@ -43,6 +42,7 @@
         NSURLRequest *request=[NSURLRequest requestWithURL:localURL];
         [webView loadRequest:request];
     }else{
+        
         NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:page ofType:@"html" inDirectory:@"/build"]];
         [webView loadRequest:[NSURLRequest requestWithURL:url]];
     }
