@@ -46,7 +46,7 @@ static Seaport *sharedInstance;
     if (self = [super init]) {
         self.appName=appName;
         self.dbName=dbName;
-        self.packageDirectory= [self createPackageFolderIfNeeded];
+        self.packageDirectory= [self createPackageFolderWithAppName:self.appName];
         if(![self loadConfig]){
             [self saveConfig:@{@"packages":@{}}];
         }
@@ -61,10 +61,10 @@ static Seaport *sharedInstance;
     return self;
 }
 
--(NSString *) createPackageFolderIfNeeded
+-(NSString *) createPackageFolderWithAppName:(NSString*) appName
 {
     NSURL *documentsDirectoryURL = [fm URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
-    NSString * packageDirectory = [documentsDirectoryURL URLByAppendingPathComponent:@"packages"].path;
+    NSString * packageDirectory = [documentsDirectoryURL URLByAppendingPathComponent:appName].path;
     
     //NSLog(@"%@",packageDirectory);
     
