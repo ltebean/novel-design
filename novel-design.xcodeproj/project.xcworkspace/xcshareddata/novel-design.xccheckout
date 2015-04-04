@@ -10,29 +10,41 @@
 	<string>novel-design</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>49ED6AB2-8543-485F-A32D-93DC6727E351</key>
+		<key>03C8EDA000600DE3E3D2810264CADDC2F5B35B80</key>
 		<string>https://github.com/novel-design/novel-design.git</string>
+		<key>BD39696FF183C8C4FF63D20C35606AADC70E5AD9</key>
+		<string>https://github.com/MugunthKumar/MKiCloudSync.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>novel-design.xcodeproj/project.xcworkspace</string>
+	<string>novel-design.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>49ED6AB2-8543-485F-A32D-93DC6727E351</key>
+		<key>03C8EDA000600DE3E3D2810264CADDC2F5B35B80</key>
 		<string>../..</string>
+		<key>BD39696FF183C8C4FF63D20C35606AADC70E5AD9</key>
+		<string>../..novel-design/MKiCloudSync</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/novel-design/novel-design.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>49ED6AB2-8543-485F-A32D-93DC6727E351</string>
+	<string>03C8EDA000600DE3E3D2810264CADDC2F5B35B80</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>49ED6AB2-8543-485F-A32D-93DC6727E351</string>
+			<string>BD39696FF183C8C4FF63D20C35606AADC70E5AD9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MKiCloudSync</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03C8EDA000600DE3E3D2810264CADDC2F5B35B80</string>
 			<key>IDESourceControlWCCName</key>
 			<string>novel-design</string>
 		</dict>

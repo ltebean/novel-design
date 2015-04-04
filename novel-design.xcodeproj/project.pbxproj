@@ -43,6 +43,7 @@
 		FA41E50C198F322E0057796F /* SinaWeiboAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41E50B198F322E0057796F /* SinaWeiboAuthViewController.m */; };
 		FA41E511198F344C0057796F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA41E50E198F344C0057796F /* SVProgressHUD.bundle */; };
 		FA41E512198F344C0057796F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41E510198F344C0057796F /* SVProgressHUD.m */; };
+		FA4585BE1ACF8485004560C1 /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4585BD1ACF8485004560C1 /* Launch.xib */; };
 		FA506D511976592900F912DB /* CollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA506D501976592900F912DB /* CollectionsViewController.m */; };
 		FA649E0B1980CAAB00781476 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA649E081980CAAB00781476 /* libWeChatSDK.a */; };
 		FA649E0D1980D2F200781476 /* icon-share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA649E0C1980D2F200781476 /* icon-share@2x.png */; };
@@ -125,6 +126,7 @@
 		FA41E50E198F344C0057796F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FA41E50F198F344C0057796F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		FA41E510198F344C0057796F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		FA4585BD1ACF8485004560C1 /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
 		FA506D4F1976592900F912DB /* CollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsViewController.h; sourceTree = "<group>"; };
 		FA506D501976592900F912DB /* CollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsViewController.m; sourceTree = "<group>"; };
 		FA649E081980CAAB00781476 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				493508E81970B640008C1C22 /* Main.storyboard */,
 				493508EE1970B640008C1C22 /* Images.xcassets */,
 				493508DD1970B640008C1C22 /* Supporting Files */,
+				FA4585BD1ACF8485004560C1 /* Launch.xib */,
 			);
 			path = "novel-design";
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				49905D4D1977FAF900C0ECA5 /* icon-home@2x.png in Resources */,
 				FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */,
 				493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */,
+				FA4585BE1ACF8485004560C1 /* Launch.xib in Resources */,
 				493508EF1970B640008C1C22 /* Images.xcassets in Resources */,
 				FA41E511198F344C0057796F /* SVProgressHUD.bundle in Resources */,
 				FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */,
@@ -633,8 +637,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "novel-design/品趣.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
@@ -644,7 +648,7 @@
 					"$(PROJECT_DIR)/novel-design",
 				);
 				PRODUCT_NAME = "品趣";
-				PROVISIONING_PROFILE = "E0B74386-07A2-421F-9068-4A6492FADA19";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -656,8 +660,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "novel-design/品趣.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cong Yu (6T4Q98EJT3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
@@ -667,7 +671,7 @@
 					"$(PROJECT_DIR)/novel-design",
 				);
 				PRODUCT_NAME = "品趣";
-				PROVISIONING_PROFILE = "E0B74386-07A2-421F-9068-4A6492FADA19";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

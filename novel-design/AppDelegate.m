@@ -28,6 +28,7 @@
     [[Seaport sharedInstance] checkUpdate];
     [WXApi registerApp:@"wx8a069659772b4e70"];
 
+    
     return YES;
 }
 
