@@ -49,10 +49,33 @@
 		FA649E0D1980D2F200781476 /* icon-share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA649E0C1980D2F200781476 /* icon-share@2x.png */; };
 		FA784159199B34D500546EFC /* WeiboHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = FA784158199B34D500546EFC /* WeiboHTTP.m */; };
 		FA78415C199B3A9800546EFC /* NSURL+QueryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78415B199B3A9800546EFC /* NSURL+QueryParser.m */; };
-		FA78415E199B521000546EFC /* build in Resources */ = {isa = PBXBuildFile; fileRef = FA78415D199B521000546EFC /* build */; };
 		FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC101977A4420033FD16 /* icon-list@2x.png */; };
 		FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */; };
 		FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */; };
+		FAE445EA1B9144DE007AA0A0 /* collections.html in Resources */ = {isa = PBXBuildFile; fileRef = FAE445BB1B9144DE007AA0A0 /* collections.html */; };
+		FAE445EB1B9144DE007AA0A0 /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = FAE445BE1B9144DE007AA0A0 /* base.css */; };
+		FAE445EC1B9144DE007AA0A0 /* detail.css in Resources */ = {isa = PBXBuildFile; fileRef = FAE445BF1B9144DE007AA0A0 /* detail.css */; };
+		FAE445ED1B9144DE007AA0A0 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = FAE445C01B9144DE007AA0A0 /* index.css */; };
+		FAE445EE1B9144DE007AA0A0 /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = FAE445C11B9144DE007AA0A0 /* detail.html */; };
+		FAE445EF1B9144DE007AA0A0 /* icon-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE445C31B9144DE007AA0A0 /* icon-heart.png */; };
+		FAE445F01B9144DE007AA0A0 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FAE445C41B9144DE007AA0A0 /* index.html */; };
+		FAE445F11B9144DE007AA0A0 /* animate.css in Resources */ = {isa = PBXBuildFile; fileRef = FAE445C81B9144DE007AA0A0 /* animate.css */; };
+		FAE445F21B9144DE007AA0A0 /* assert.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445CB1B9144DE007AA0A0 /* assert.js */; };
+		FAE445F31B9144DE007AA0A0 /* config.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445CC1B9144DE007AA0A0 /* config.js */; };
+		FAE445F41B9144DE007AA0A0 /* fastclick.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445CF1B9144DE007AA0A0 /* fastclick.js */; };
+		FAE445F51B9144DE007AA0A0 /* json.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445D21B9144DE007AA0A0 /* json.js */; };
+		FAE445F61B9144DE007AA0A0 /* neuron.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445D51B9144DE007AA0A0 /* neuron.js */; };
+		FAE445F71B9144DE007AA0A0 /* neuron.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445D61B9144DE007AA0A0 /* neuron.js */; };
+		FAE445F81B9144DE007AA0A0 /* collections.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445DA1B9144DE007AA0A0 /* collections.js */; };
+		FAE445F91B9144DE007AA0A0 /* detail.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445DB1B9144DE007AA0A0 /* detail.js */; };
+		FAE445FA1B9144DE007AA0A0 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445DC1B9144DE007AA0A0 /* index.js */; };
+		FAE445FB1B9144DE007AA0A0 /* novel-design-static.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445DD1B9144DE007AA0A0 /* novel-design-static.js */; };
+		FAE445FC1B9144DE007AA0A0 /* seaport-bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445E01B9144DE007AA0A0 /* seaport-bridge.js */; };
+		FAE445FD1B9144DE007AA0A0 /* spin.js.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445E31B9144DE007AA0A0 /* spin.js.js */; };
+		FAE445FE1B9144DE007AA0A0 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445E61B9144DE007AA0A0 /* util.js */; };
+		FAE445FF1B9144DE007AA0A0 /* zepto.js in Resources */ = {isa = PBXBuildFile; fileRef = FAE445E91B9144DE007AA0A0 /* zepto.js */; };
+		FAE446031B9145C6007AA0A0 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE446011B9145C6007AA0A0 /* Fabric.framework */; };
+		FAE446041B9145C6007AA0A0 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE446021B9145C6007AA0A0 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,10 +160,33 @@
 		FA784158199B34D500546EFC /* WeiboHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboHTTP.m; sourceTree = "<group>"; };
 		FA78415A199B3A9800546EFC /* NSURL+QueryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryParser.h"; sourceTree = "<group>"; };
 		FA78415B199B3A9800546EFC /* NSURL+QueryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryParser.m"; sourceTree = "<group>"; };
-		FA78415D199B521000546EFC /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
 		FAC8FC101977A4420033FD16 /* icon-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-list@2x.png"; sourceTree = "<group>"; };
 		FAC8FC141977B01B0033FD16 /* icon-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-heart@2x.png"; sourceTree = "<group>"; };
 		FAC8FC161977B9D70033FD16 /* icon-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings@2x.png"; sourceTree = "<group>"; };
+		FAE445BB1B9144DE007AA0A0 /* collections.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = collections.html; sourceTree = "<group>"; };
+		FAE445BE1B9144DE007AA0A0 /* base.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = base.css; sourceTree = "<group>"; };
+		FAE445BF1B9144DE007AA0A0 /* detail.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = detail.css; sourceTree = "<group>"; };
+		FAE445C01B9144DE007AA0A0 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		FAE445C11B9144DE007AA0A0 /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		FAE445C31B9144DE007AA0A0 /* icon-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-heart.png"; sourceTree = "<group>"; };
+		FAE445C41B9144DE007AA0A0 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		FAE445C81B9144DE007AA0A0 /* animate.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = animate.css; sourceTree = "<group>"; };
+		FAE445CB1B9144DE007AA0A0 /* assert.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = assert.js; sourceTree = "<group>"; };
+		FAE445CC1B9144DE007AA0A0 /* config.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = config.js; sourceTree = "<group>"; };
+		FAE445CF1B9144DE007AA0A0 /* fastclick.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fastclick.js; sourceTree = "<group>"; };
+		FAE445D21B9144DE007AA0A0 /* json.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json.js; sourceTree = "<group>"; };
+		FAE445D51B9144DE007AA0A0 /* neuron.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = neuron.js; sourceTree = "<group>"; };
+		FAE445D61B9144DE007AA0A0 /* neuron.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = neuron.js; sourceTree = "<group>"; };
+		FAE445DA1B9144DE007AA0A0 /* collections.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = collections.js; sourceTree = "<group>"; };
+		FAE445DB1B9144DE007AA0A0 /* detail.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = detail.js; sourceTree = "<group>"; };
+		FAE445DC1B9144DE007AA0A0 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		FAE445DD1B9144DE007AA0A0 /* novel-design-static.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "novel-design-static.js"; sourceTree = "<group>"; };
+		FAE445E01B9144DE007AA0A0 /* seaport-bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "seaport-bridge.js"; sourceTree = "<group>"; };
+		FAE445E31B9144DE007AA0A0 /* spin.js.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = spin.js.js; sourceTree = "<group>"; };
+		FAE445E61B9144DE007AA0A0 /* util.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = util.js; sourceTree = "<group>"; };
+		FAE445E91B9144DE007AA0A0 /* zepto.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zepto.js; sourceTree = "<group>"; };
+		FAE446011B9145C6007AA0A0 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		FAE446021B9145C6007AA0A0 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +194,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE446031B9145C6007AA0A0 /* Fabric.framework in Frameworks */,
 				49895A8719739459000A8895 /* MessageUI.framework in Frameworks */,
+				FAE446041B9145C6007AA0A0 /* Crashlytics.framework in Frameworks */,
 				4935090C1970B650008C1C22 /* libz.dylib in Frameworks */,
 				FA649E0B1980CAAB00781476 /* libWeChatSDK.a in Frameworks */,
 				493508D91970B640008C1C22 /* CoreGraphics.framework in Frameworks */,
@@ -173,6 +221,8 @@
 		493508CA1970B640008C1C22 = {
 			isa = PBXGroup;
 			children = (
+				FAE446011B9145C6007AA0A0 /* Fabric.framework */,
+				FAE446021B9145C6007AA0A0 /* Crashlytics.framework */,
 				493508DC1970B640008C1C22 /* novel-design */,
 				493508FB1970B640008C1C22 /* novel-designTests */,
 				493508D51970B640008C1C22 /* Frameworks */,
@@ -233,7 +283,7 @@
 		493508DD1970B640008C1C22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA78415D199B521000546EFC /* build */,
+				FAE445BA1B9144DE007AA0A0 /* build */,
 				FA649E071980CA9F00781476 /* weixin */,
 				49895A8D1973D56F000A8895 /* img */,
 				493508DE1970B640008C1C22 /* novel-design-Info.plist */,
@@ -371,6 +421,235 @@
 			name = weixin;
 			sourceTree = "<group>";
 		};
+		FAE445BA1B9144DE007AA0A0 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445BB1B9144DE007AA0A0 /* collections.html */,
+				FAE445BC1B9144DE007AA0A0 /* css */,
+				FAE445C11B9144DE007AA0A0 /* detail.html */,
+				FAE445C21B9144DE007AA0A0 /* img */,
+				FAE445C41B9144DE007AA0A0 /* index.html */,
+				FAE445C51B9144DE007AA0A0 /* neurons */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		FAE445BC1B9144DE007AA0A0 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445BD1B9144DE007AA0A0 /* common */,
+				FAE445BF1B9144DE007AA0A0 /* detail.css */,
+				FAE445C01B9144DE007AA0A0 /* index.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		FAE445BD1B9144DE007AA0A0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445BE1B9144DE007AA0A0 /* base.css */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		FAE445C21B9144DE007AA0A0 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445C31B9144DE007AA0A0 /* icon-heart.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		FAE445C51B9144DE007AA0A0 /* neurons */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445C61B9144DE007AA0A0 /* animate.css */,
+				FAE445C91B9144DE007AA0A0 /* assert */,
+				FAE445CC1B9144DE007AA0A0 /* config.js */,
+				FAE445CD1B9144DE007AA0A0 /* fastclick */,
+				FAE445D01B9144DE007AA0A0 /* json */,
+				FAE445D31B9144DE007AA0A0 /* neuron */,
+				FAE445D61B9144DE007AA0A0 /* neuron.js */,
+				FAE445D71B9144DE007AA0A0 /* novel-design-static */,
+				FAE445DE1B9144DE007AA0A0 /* seaport-bridge */,
+				FAE445E11B9144DE007AA0A0 /* spin.js */,
+				FAE445E41B9144DE007AA0A0 /* util */,
+				FAE445E71B9144DE007AA0A0 /* zepto */,
+			);
+			path = neurons;
+			sourceTree = "<group>";
+		};
+		FAE445C61B9144DE007AA0A0 /* animate.css */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445C71B9144DE007AA0A0 /* 3.1.1 */,
+			);
+			path = animate.css;
+			sourceTree = "<group>";
+		};
+		FAE445C71B9144DE007AA0A0 /* 3.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445C81B9144DE007AA0A0 /* animate.css */,
+			);
+			path = 3.1.1;
+			sourceTree = "<group>";
+		};
+		FAE445C91B9144DE007AA0A0 /* assert */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445CA1B9144DE007AA0A0 /* 1.0.1 */,
+			);
+			path = assert;
+			sourceTree = "<group>";
+		};
+		FAE445CA1B9144DE007AA0A0 /* 1.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445CB1B9144DE007AA0A0 /* assert.js */,
+			);
+			path = 1.0.1;
+			sourceTree = "<group>";
+		};
+		FAE445CD1B9144DE007AA0A0 /* fastclick */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445CE1B9144DE007AA0A0 /* 1.0.2 */,
+			);
+			path = fastclick;
+			sourceTree = "<group>";
+		};
+		FAE445CE1B9144DE007AA0A0 /* 1.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445CF1B9144DE007AA0A0 /* fastclick.js */,
+			);
+			path = 1.0.2;
+			sourceTree = "<group>";
+		};
+		FAE445D01B9144DE007AA0A0 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445D11B9144DE007AA0A0 /* 1.0.1 */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		FAE445D11B9144DE007AA0A0 /* 1.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445D21B9144DE007AA0A0 /* json.js */,
+			);
+			path = 1.0.1;
+			sourceTree = "<group>";
+		};
+		FAE445D31B9144DE007AA0A0 /* neuron */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445D41B9144DE007AA0A0 /* 7.2.0 */,
+			);
+			path = neuron;
+			sourceTree = "<group>";
+		};
+		FAE445D41B9144DE007AA0A0 /* 7.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445D51B9144DE007AA0A0 /* neuron.js */,
+			);
+			path = 7.2.0;
+			sourceTree = "<group>";
+		};
+		FAE445D71B9144DE007AA0A0 /* novel-design-static */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445D81B9144DE007AA0A0 /* 0.1.0 */,
+			);
+			path = "novel-design-static";
+			sourceTree = "<group>";
+		};
+		FAE445D81B9144DE007AA0A0 /* 0.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445D91B9144DE007AA0A0 /* entries */,
+				FAE445DD1B9144DE007AA0A0 /* novel-design-static.js */,
+			);
+			path = 0.1.0;
+			sourceTree = "<group>";
+		};
+		FAE445D91B9144DE007AA0A0 /* entries */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445DA1B9144DE007AA0A0 /* collections.js */,
+				FAE445DB1B9144DE007AA0A0 /* detail.js */,
+				FAE445DC1B9144DE007AA0A0 /* index.js */,
+			);
+			path = entries;
+			sourceTree = "<group>";
+		};
+		FAE445DE1B9144DE007AA0A0 /* seaport-bridge */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445DF1B9144DE007AA0A0 /* 0.2.2 */,
+			);
+			path = "seaport-bridge";
+			sourceTree = "<group>";
+		};
+		FAE445DF1B9144DE007AA0A0 /* 0.2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445E01B9144DE007AA0A0 /* seaport-bridge.js */,
+			);
+			path = 0.2.2;
+			sourceTree = "<group>";
+		};
+		FAE445E11B9144DE007AA0A0 /* spin.js */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445E21B9144DE007AA0A0 /* 2.0.1 */,
+			);
+			path = spin.js;
+			sourceTree = "<group>";
+		};
+		FAE445E21B9144DE007AA0A0 /* 2.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445E31B9144DE007AA0A0 /* spin.js.js */,
+			);
+			path = 2.0.1;
+			sourceTree = "<group>";
+		};
+		FAE445E41B9144DE007AA0A0 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445E51B9144DE007AA0A0 /* 1.0.4 */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		FAE445E51B9144DE007AA0A0 /* 1.0.4 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445E61B9144DE007AA0A0 /* util.js */,
+			);
+			path = 1.0.4;
+			sourceTree = "<group>";
+		};
+		FAE445E71B9144DE007AA0A0 /* zepto */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445E81B9144DE007AA0A0 /* 1.1.3 */,
+			);
+			path = zepto;
+			sourceTree = "<group>";
+		};
+		FAE445E81B9144DE007AA0A0 /* 1.1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE445E91B9144DE007AA0A0 /* zepto.js */,
+			);
+			path = 1.1.3;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -381,6 +660,7 @@
 				493508CF1970B640008C1C22 /* Sources */,
 				493508D01970B640008C1C22 /* Frameworks */,
 				493508D11970B640008C1C22 /* Resources */,
+				FAE446001B9145B3007AA0A0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -455,20 +735,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA78415E199B521000546EFC /* build in Resources */,
 				FAC8FC171977B9D70033FD16 /* icon-settings@2x.png in Resources */,
+				FAE445F91B9144DE007AA0A0 /* detail.js in Resources */,
 				49895A8C197396F6000A8895 /* Main.storyboard in Resources */,
 				49905D4B1977FA4800C0ECA5 /* icon-furniture@2x.png in Resources */,
+				FAE445FB1B9144DE007AA0A0 /* novel-design-static.js in Resources */,
+				FAE445F41B9144DE007AA0A0 /* fastclick.js in Resources */,
+				FAE445F81B9144DE007AA0A0 /* collections.js in Resources */,
+				FAE445F31B9144DE007AA0A0 /* config.js in Resources */,
+				FAE445F61B9144DE007AA0A0 /* neuron.js in Resources */,
+				FAE445EF1B9144DE007AA0A0 /* icon-heart.png in Resources */,
 				49905D491977F81500C0ECA5 /* icon-user@2x.png in Resources */,
+				FAE445FF1B9144DE007AA0A0 /* zepto.js in Resources */,
+				FAE445F11B9144DE007AA0A0 /* animate.css in Resources */,
+				FAE445F21B9144DE007AA0A0 /* assert.js in Resources */,
+				FAE445F01B9144DE007AA0A0 /* index.html in Resources */,
+				FAE445ED1B9144DE007AA0A0 /* index.css in Resources */,
+				FAE445EC1B9144DE007AA0A0 /* detail.css in Resources */,
+				FAE445FA1B9144DE007AA0A0 /* index.js in Resources */,
 				49905D4D1977FAF900C0ECA5 /* icon-home@2x.png in Resources */,
 				FAC8FC111977A4420033FD16 /* icon-list@2x.png in Resources */,
+				FAE445EA1B9144DE007AA0A0 /* collections.html in Resources */,
+				FAE445FC1B9144DE007AA0A0 /* seaport-bridge.js in Resources */,
+				FAE445EE1B9144DE007AA0A0 /* detail.html in Resources */,
 				493509391970B6B2008C1C22 /* WebViewJavascriptBridge.js.txt in Resources */,
+				FAE445F71B9144DE007AA0A0 /* neuron.js in Resources */,
+				FAE445FE1B9144DE007AA0A0 /* util.js in Resources */,
 				FA4585BE1ACF8485004560C1 /* Launch.xib in Resources */,
 				493508EF1970B640008C1C22 /* Images.xcassets in Resources */,
 				FA41E511198F344C0057796F /* SVProgressHUD.bundle in Resources */,
+				FAE445EB1B9144DE007AA0A0 /* base.css in Resources */,
+				FAE445FD1B9144DE007AA0A0 /* spin.js.js in Resources */,
 				FAC8FC151977B01B0033FD16 /* icon-heart@2x.png in Resources */,
 				493508E11970B640008C1C22 /* InfoPlist.strings in Resources */,
 				FA649E0D1980D2F200781476 /* icon-share@2x.png in Resources */,
+				FAE445F51B9144DE007AA0A0 /* json.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +782,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAE446001B9145B3007AA0A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run f76e439b5fd9873bfe46a5461fc749ec526ee446 5721cf137a323472424a2a4705339158372d733d0538a90a766e395a14814f1d";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		493508CF1970B640008C1C22 /* Sources */ = {
@@ -637,8 +954,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "novel-design/品趣.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cong Yu (LUAG5Z5ST3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cong Yu (LUAG5Z5ST3)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
@@ -648,7 +969,7 @@
 					"$(PROJECT_DIR)/novel-design",
 				);
 				PRODUCT_NAME = "品趣";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "8f4dc8ec-89bd-4643-8dfc-3cf975e09b02";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -660,8 +981,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "novel-design/品趣.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cong Yu (LUAG5Z5ST3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cong Yu (LUAG5Z5ST3)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "novel-design/novel-design-Prefix.pch";
 				INFOPLIST_FILE = "novel-design/novel-design-Info.plist";
@@ -671,7 +996,7 @@
 					"$(PROJECT_DIR)/novel-design",
 				);
 				PRODUCT_NAME = "品趣";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "8f4dc8ec-89bd-4643-8dfc-3cf975e09b02";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

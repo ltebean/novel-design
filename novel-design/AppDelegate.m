@@ -9,7 +9,8 @@
 #import "AppDelegate.h"
 #import "Seaport.h"
 #import "MKiCloudSync.h"
-
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 #define color [UIColor colorWithRed:36/255.0f green:36/255.0f blue:36/255.0f alpha:1.0f ]
 
@@ -28,7 +29,8 @@
     [[Seaport sharedInstance] checkUpdate];
     [WXApi registerApp:@"wx8a069659772b4e70"];
 
-    
+    [Fabric with:@[[Crashlytics class]]];
+
     return YES;
 }
 

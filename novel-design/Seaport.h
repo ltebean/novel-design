@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 #define APP_NAME @"novel-design-v1.2.0"
-#define SERVER_HOST @"223.4.15.141"
-#define SERVER_PORT @"9984"
+#define SERVER_HOST @"106.187.100.229"
+#define SERVER_PORT @"5984"
 #define DB_NAME @"seaport"
 
 @class Seaport;

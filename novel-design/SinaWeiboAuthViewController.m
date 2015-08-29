@@ -10,6 +10,8 @@
 #import "SVProgressHUD.h"
 #import "WeiboHTTP.h"
 #import "NSURL+QueryParser.h"
+#import <Crashlytics/Crashlytics.h>
+
 #define userDefaults  [NSUserDefaults standardUserDefaults]
 #define appSecret @""
 
@@ -93,6 +95,10 @@
             NSDictionary* userInfo = @{@"code":code, @"weiboId":data[@"id"],@"weiboName":data[@"name"],@"weiboAvatar":data[@"avatar_large"],@"weiboToken":access_token};
             [userDefaults setObject:userInfo forKey:@"userInfo"];
             [userDefaults synchronize];
+            [Answers logContentViewWithName:@"connect_weibo"
+                                contentType:nil
+                                  contentId:nil
+                           customAttributes:nil];
             return completionHandler(userInfo);
         }];
     }];

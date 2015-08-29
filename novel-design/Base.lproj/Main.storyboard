@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ieG-Om-CAe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14A388b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ieG-Om-CAe">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--View Controller - 品趣-->
+        <!--品趣-->
         <scene sceneID="zLH-p8-M4p">
             <objects>
                 <viewController id="K34-UN-qse" customClass="ViewController" sceneMemberID="viewController">
@@ -84,7 +85,7 @@
             </objects>
             <point key="canvasLocation" x="3114" y="-150"/>
         </scene>
-        <!--Navigation Controller - 品趣-->
+        <!--品趣-->
         <scene sceneID="ycD-DO-cFv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c87-Ic-Zx5" sceneMemberID="viewController">
@@ -105,7 +106,7 @@
             </objects>
             <point key="canvasLocation" x="1872" y="-13"/>
         </scene>
-        <!--Setting View Controller - 设置-->
+        <!--设置-->
         <scene sceneID="Uy0-gr-b2D">
             <objects>
                 <tableViewController id="6tE-sk-9lh" customClass="SettingViewController" sceneMemberID="viewController">
@@ -118,7 +119,7 @@
                             <tableViewSection headerTitle="帐号" id="I5Y-3U-TAs">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="M7x-aD-Yoy">
-                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="114" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M7x-aD-Yoy" id="AI8-ti-OIL">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -132,7 +133,7 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YFe-ss-7wS">
                                                     <rect key="frame" x="260" y="8" width="52" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="授权">
                                                         <color key="titleColor" red="0.2470588235" green="0.20392156859999999" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -149,7 +150,7 @@
                             <tableViewSection headerTitle="反馈" id="4Tg-Q8-8AP">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="wv6-1w-bPu">
-                                        <rect key="frame" x="0.0" y="211" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="201" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wv6-1w-bPu" id="S20-oZ-r2v">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -165,7 +166,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="GC5-G9-yC1">
-                                        <rect key="frame" x="0.0" y="255" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="245" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GC5-G9-yC1" id="jr3-Gv-7PF">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -185,13 +186,13 @@
                             <tableViewSection headerTitle="版本" id="fgV-Qt-byL">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Cmt-Qd-TJe">
-                                        <rect key="frame" x="0.0" y="347" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="332" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cmt-Qd-TJe" id="ACI-fe-6g4">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.2.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eCv-LY-qlV">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.4.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eCv-LY-qlV">
                                                     <rect key="frame" x="20" y="11" width="158" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -218,7 +219,7 @@
             </objects>
             <point key="canvasLocation" x="2403" y="718"/>
         </scene>
-        <!--Sina Weibo Auth View Controller - 授权-->
+        <!--授权-->
         <scene sceneID="Oxy-Vz-Lvw">
             <objects>
                 <viewController title="授权" id="xYC-bC-BEP" customClass="SinaWeiboAuthViewController" sceneMemberID="viewController">
@@ -283,7 +284,7 @@
             </objects>
             <point key="canvasLocation" x="1266" y="-91"/>
         </scene>
-        <!--Collections View Controller - 喜欢-->
+        <!--喜欢-->
         <scene sceneID="8Ym-Ff-c8O">
             <objects>
                 <viewController id="cnV-HF-rfM" customClass="CollectionsViewController" sceneMemberID="viewController">
@@ -322,7 +323,7 @@
             </objects>
             <point key="canvasLocation" x="2524" y="-697"/>
         </scene>
-        <!--Navigation Controller - 喜欢-->
+        <!--喜欢-->
         <scene sceneID="mx0-gg-GEr">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iMc-Ol-RBO" sceneMemberID="viewController">
@@ -343,7 +344,7 @@
             </objects>
             <point key="canvasLocation" x="1862" y="-731"/>
         </scene>
-        <!--Navigation Controller - 设置-->
+        <!--设置-->
         <scene sceneID="UWJ-OY-iWS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GBy-kg-IZQ" sceneMemberID="viewController">

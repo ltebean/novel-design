@@ -9,6 +9,7 @@
 #import "SettingViewController.h"
 #import <MessageUI/MFMailComposeViewController.h>
 #import <MessageUI/MessageUI.h>
+#import <Crashlytics/Crashlytics.h>
 
 #define userDefaults  [NSUserDefaults standardUserDefaults]
 

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Crashlytics/Crashlytics.h>
 
 @interface ViewController  () <UIWebViewDelegate,UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -36,6 +37,10 @@
         [self refresh:nil];
         self.loaded=YES;
     }
+    [Answers logContentViewWithName:@"home"
+                        contentType:nil
+                          contentId:nil
+                   customAttributes:nil];
 }
 - (IBAction)refresh:(id)sender {
     

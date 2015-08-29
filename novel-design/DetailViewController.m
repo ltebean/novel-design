@@ -10,6 +10,7 @@
 #import "WXApi.h"
 #import "WeiboHTTP.h"
 #import "SVProgressHUD.h"
+#import <Crashlytics/Crashlytics.h>
 
 @interface DetailViewController  () <UIWebViewDelegate,UISearchBarDelegate,UIActionSheetDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -37,6 +38,10 @@
         [self loadPage:@"detail" inWebView:self.webView];
         self.loaded=YES;
     }
+    [Answers logContentViewWithName:@"detail"
+                        contentType:nil
+                          contentId:nil
+                   customAttributes:nil];
 }
 - (IBAction)share:(id)sender {
    
@@ -75,6 +80,8 @@
         [self alert:@"请在设置界面登陆微博"];
         return;
     }
+    [Answers logCustomEventWithName:@"share_weibo"
+                   customAttributes:@{}];
     NSDictionary* design=self.param[@"data"];
     NSString* status=[NSString stringWithFormat:@"%@ 分享自#品趣#",design[@"title"]];
     [WeiboHTTP sendRequestToPath:@"/2/statuses/upload_url_text.json"  method:@"POST" params:@{@"access_token":userInfo[@"weiboToken"],@"status":status,@"url":design[@"thumb"]} completionHandler:^(id data) {
@@ -98,7 +105,9 @@
         [self alert:@"还没有安装微信"];
         return;
     }
-    
+    [Answers logCustomEventWithName:@"share_weixin"
+                   customAttributes:@{@"time_line": @(isTimeLine)}];
+
     NSURLRequest* request=[NSURLRequest requestWithURL:[NSURL URLWithString:self.param[@"data"][@"thumb"]]];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * response, NSData *data, NSError *error) {
         if(error){
